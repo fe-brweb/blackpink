@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/** tailwindcss v4.0 (Zero-Config) */
+@theme {
+  --font-pretendard: var(--font-pretendard);
+  --font-oswald: var(--font-oswald);
+  --color-primary: #f7a7bb;
+  --color-secondary: #150b0e;
+  --color-bongbong: #dddddd;
+}
+
+body {
+  font-family: var(--font-pretendard), sans-serif;
+}
